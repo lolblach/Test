@@ -8,7 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: white;
+    color: black;
 }
 body{
     background: #f6f6f6;
@@ -124,5 +124,38 @@ header ul li ul li a{
     background: white;
     padding: 8px;
     position: center;
-    width: 600px;
+    width: 500px;
+    border-radius: 8px
+}
+.main-content .post_text h3{
+    margin: 14px 0;
+}
+.main-content .post_text h3 a:hover{
+    text-decoration: underline;
+    color: black;
+
+}
+.main-content .post_text i{
+    margin:0px 14px 14px 0;
+
+}
+.search{
+    margin-top: 100px;
+}
+.sidebar .section{
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+.sidebar .category{
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.sidebar .category ul li a:hover{
+    text-decoration: underline;
+    color: black;
 }
